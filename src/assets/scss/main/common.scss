@@ -6,14 +6,40 @@
 
 html {
     background-color: #fff;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 400;
+    font-family: "Open Sans", serif;
     font-style: normal;
-    color: #000;
+    color: #0F1F1C;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s;
+    &:hover {
+        color: #ff624e;
+    }
+}
+
+.page-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1210px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.wrapper-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper-flex-no-align {
+    display: flex;
 }

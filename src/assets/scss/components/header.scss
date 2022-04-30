@@ -1,3 +1,35 @@
-header {
-    margin: 0;
+.header {
+    padding-top: 56px;
+    color: #FFFFFF;
+    min-height: 950px;
+    background-image: url('../imgs/header/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    &__nav {
+        font-size: 15px;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        margin-right: 80px;
+    }
+    .last {
+        margin-right: 0;
+    }
+    &__registr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__sing-up {
+        margin-right: 25px;
+    }
+    &__descr {
+        margin-top: 30px;
+        line-height: 38px;
+        opacity: 0.5;
+    }
 }
+

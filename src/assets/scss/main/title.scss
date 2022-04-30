@@ -1,0 +1,22 @@
+.title {
+    font-weight: 700;
+    &__header {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    &__header-main {
+        width: 603px;
+        font-weight: 600;
+        font-size: 55px;
+        line-height: 82px;
+    }
+    &__about {
+        font-size: 45px;
+        line-height: 68px;
+    }
+    &__name {
+        margin-top: 53px;
+        font-size: 33px;
+        line-height: 50px;
+    }
+}
